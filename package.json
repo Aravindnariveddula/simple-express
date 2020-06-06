@@ -11,6 +11,7 @@
     "typescript": "^3.6.4"
   },
   "scripts": {
+    "start": "node server.js",
     "build": "tsc -p src",
     "server": "node dist/main.js",
     "lint": "tslint -c tslint.json 'src/**/*.ts'"
